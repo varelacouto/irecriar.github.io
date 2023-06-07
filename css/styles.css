@@ -8,11 +8,11 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 1rem;
 }
 
 main {
     margin: auto;
-    
 }
 
 .parallax-1 {
@@ -44,16 +44,49 @@ main {
 
 #subscription-form {
     background-color: #1DB476;
-    flex-direction: column;
-    height: auto;
     color: #FFFFFA;
+    
+    
 }
 
 #subscription-form .pa{
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     color: #FFFFFA;
     text-shadow: 1PX 2PX #006400;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.form-group {
+    text-transform: uppercase;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    font-size: .6em;
+    width: 95%;
+    margin: 10px 10px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 6px 8px;
+    border-radius: 5px
+}
+
+.btn {
+    width: 95%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.4em 1em;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #006400;
+    background-color: #064e3b;
+    color: #FFFFFA;
+    margin: 10px 10px;
+    letter-spacing: 2px;
+    
+
 }
 
 
