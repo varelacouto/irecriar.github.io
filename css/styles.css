@@ -277,7 +277,7 @@
     color: #064e3b;
     font-size: 1em;
     line-height: 1.6em;
-    list-style-image: url(../img/check01.png);
+    list-style-image: url('../img/check01.png');
 }
 
 .rodape {
@@ -296,7 +296,7 @@
     font-size: 2rem;
 }
 .rodape h6 {
-    font-size: .8rem;
+    font-size: .6rem;
     text-align: center;
     color: rgba(6, 78, 59, .5);
 }
